@@ -1,0 +1,22 @@
+# Ignorar archivos y carpetas generados por el sistema operativo
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos de configuración de IDE
+.vscode/
+
+node_modules/
+
+# Carpeta de construcción del servidor (Node.js con Apollo)
+server/node_modules/
+server/dist/
+
+# Carpeta de construcción del cliente (Next.js)
+client/node_modules/
+client/.next/
+
+# Archivos de configuración específicos del servidor
+server/.env
+
+# Archivos de configuración específicos del cliente
+client/.env
